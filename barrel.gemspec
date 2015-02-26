@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Barrel::VERSION
   spec.authors       = ["John Pinkerton"]
   spec.email         = ["jpinkerton88@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
+  spec.summary       = %q{Store arbitrary values in Barrel.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/johnthepink/barrel"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
