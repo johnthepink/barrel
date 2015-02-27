@@ -1,5 +1,7 @@
 require "barrel/version"
+require "barrel/railtie"
+require "barrel/store"
 
 module Barrel
-  # Your code goes here...
+
 end
