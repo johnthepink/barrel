@@ -13,6 +13,7 @@ gem 'barrel'
 And then execute:
 
     $ bundle
+    $ rails generate barrel:install
 
 ## Usage
 
