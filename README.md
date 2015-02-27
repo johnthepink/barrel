@@ -1,6 +1,6 @@
 # Barrel
 
-TODO: Write a gem description
+Use Barrel to store your arbitrary values in Rails.
 
 ## Installation
 
@@ -14,13 +14,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install barrel
-
 ## Usage
 
-TODO: Write usage instructions here
+Barrel is so simple:
+
+```ruby
+Barrel.store 'Total Monkeys', '42'
+Barrel.find 'Total Monkeys'
+# => '42'
+```
 
 ## Contributing
 
